@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -348,11 +349,11 @@
         <span class="eyebrow">Software Engineer </span>
         <h1>I build software<br/>that feels <span class="grad-text" style="font-style:italic;">alive.</span></h1>
         <p class="lead">
-          Five years of shipping full-stack systems — from a city government
-          chatbot serving thousands of residents to real estate platforms
-          built on Go and React Native. I write clean backends, design
-          thoughtful APIs, and care deeply about the people on the other
-          end of the interface.
+          Five years of shipping full-stack systems — from real-time
+          dashboards that help plant operators catch equipment risks at
+          Koch Industries to real estate platforms built on Go and React
+          Native. I write clean backends, design thoughtful APIs, and care
+          deeply about the people on the other end of the interface.
         </p>
         <div class="hero-actions">
           <a href="#projects" class="btn btn-primary">View my work</a>
@@ -372,19 +373,19 @@
 
         <div class="orbit-spin outer" style="width:420px;height:420px;">
           <div class="orbit-node" style="transform:rotate(0deg) translateY(-210px);">
-            <span class="chip-counter"><span class="chip glass">Golang</span></span>
+            <span class="chip-counter"><span class="chip glass">React</span></span>
           </div>
           <div class="orbit-node" style="transform:rotate(120deg) translateY(-210px);">
-            <span class="chip-counter"><span class="chip glass">React Native</span></span>
+            <span class="chip-counter"><span class="chip glass">Node.js</span></span>
           </div>
           <div class="orbit-node" style="transform:rotate(240deg) translateY(-210px);">
-            <span class="chip-counter"><span class="chip glass">REST APIs</span></span>
+            <span class="chip-counter"><span class="chip glass">TypeScript</span></span>
           </div>
         </div>
 
         <div class="orbit-spin inner" style="width:290px;height:290px;">
           <div class="orbit-node" style="transform:rotate(60deg) translateY(-145px);">
-            <span class="chip-counter"><span class="chip glass">MongoDB</span></span>
+            <span class="chip-counter"><span class="chip glass">PostgreSQL</span></span>
           </div>
           <div class="orbit-node" style="transform:rotate(240deg) translateY(-145px);">
             <span class="chip-counter"><span class="chip glass">AWS</span></span>
@@ -399,14 +400,14 @@
     <div class="container about-grid">
       <div class="fade-up">
         <span class="eyebrow">About</span>
-        <h2 class="display">From CMDB audits to <span class="grad-text" style="font-style:italic;">AI chatbots</span></h2>
+        <h2 class="display">From CMDB audits to <span class="grad-text" style="font-style:italic;">real-time dashboards</span></h2>
       </div>
       <div class="fade-up" style="transition-delay:.1s">
         <p>
-          I'm a software engineer who has working across the full stack of
+          I'm a software engineer who has worked across the full stack of
           modern IT — from governing thousands of assets inside a
-          ServiceNow CMDB, to building the admin panel behind a
-          production AI chatbot for the City of Wichita. That range taught
+          ServiceNow CMDB, to building real-time dashboards and APIs on
+          Koch Industries' Connected Plant Initiative. That range taught
           me to care about both the invisible plumbing and the interface
           people actually touch.
         </p>
@@ -444,25 +445,17 @@
           <div class="timeline-dot" style="background:var(--rose-gold);"></div>
           <div class="job-card glass glass-hover">
             <div class="job-head">
-              <h3 class="job-title">AI Software Engineer</h3>
+              <h3 class="job-title">Full Stack Software Engineer</h3>
               <span class="job-date">Jan 2025 – Present</span>
             </div>
-            <p class="job-org">Wichita State University — AI R&D · Wichita, KS</p>
-
-            <p class="job-sub">Project · WSU Chatbot Admin Panel</p>
+            <p class="job-org">Koch Industries / Flint Hills Resources — Connected Plant Initiative · Wichita, KS</p>
             <ul class="job-list">
-              <li>Designed and building an AI chatbot admin panel prototype with real-time analytics, content approval workflow, and role-based access control</li>
-              <li>Built a reusable, fully responsive UI component library compliant with WCAG 2.1 accessibility standards</li>
-              <li>Collaborated with AI research engineers to design workflows aligned with model capabilities and constraints</li>
-              <li>Prototype's success directly led WSU to a production contract with the City of Wichita</li>
-            </ul>
-
-            <p class="job-sub">Project · City of Wichita Chatbot Admin Panel</p>
-            <ul class="job-list">
-              <li>Developing the production admin panel for the City of Wichita's official chatbot, letting non-technical staff manage content independently</li>
-              <li>Built real-time analytics dashboards to monitor conversations and platform performance for city stakeholders</li>
-              <li>Integrated REST APIs across frontend modules to sync live data with the chatbot backend, improving page load performance</li>
-              <li>Ran end-to-end QA — accessibility audits, cross-browser checks, and regression testing — before release</li>
+              <li>Built full-stack features for the Connected Plant Initiative using React, TypeScript, Node.js, and PostgreSQL, serving 100+ plant operators and reliability engineers across multiple sites</li>
+              <li>Developed real-time React dashboards with WebSocket streaming, cutting the time for operators to see critical equipment alerts from ~10 minutes to under 5 seconds</li>
+              <li>Designed and built 25+ RESTful Node.js endpoints and PostgreSQL schemas for alerts and risk-ranking features, reducing slow-query response times by 30% through indexing and query tuning</li>
+              <li>Built Node.js data connectors ingesting telemetry and anomaly data from 500+ industrial sensors (~100 events/sec at peak), using Redis caching to keep p95 API response times under 100ms</li>
+              <li>Created 15+ reusable, responsive React components for equipment risk rankings and status views, helping operators prioritize high-risk equipment faster</li>
+              <li>Wrote unit and integration tests with Jest and React Testing Library (~80% coverage) and deployed services to AWS (Lambda, API Gateway, RDS) through CI/CD pipelines, cutting release time from hours to minutes</li>
             </ul>
           </div>
         </div>
@@ -470,18 +463,18 @@
         <div class="timeline-item fade-up">
           <div class="timeline-dot" style="background:var(--violet);"></div>
           <div class="job-card glass glass-hover">
-           <div class="job-head">
-  <h3 class="job-title">Cloud Integration & Infrastructure Engineer</h3>
-  <span class="job-date">Sep 2022 – Jul 2024</span>
-</div>
-<p class="job-org">HCLTech — BioMérieux Project · Chennai, India</p>
-<ul class="job-list">
-  <li>Engineered cloud-native microservices in Java (Spring Boot) to discover and reconcile 5,000+ enterprise infrastructure assets across Azure, improving inventory accuracy by 35%</li>
-  <li>Automated data synchronization pipelines between Azure and ServiceNow CMDB, reducing manual audit overhead by 30% and cutting reconciliation time from days to hours</li>
-  <li>Developed responsive React dashboards visualizing real-time cloud resource metrics for 50+ IT operations stakeholders, improving incident response time by 25%</li>
-  <li>Optimized PostgreSQL schema design and indexing, reducing average query latency by 40% on high-traffic reporting endpoints</li>
-  <li>Containerized services with Docker, improving environment provisioning consistency and cutting setup time by 20%</li>
-</ul>
+            <div class="job-head">
+              <h3 class="job-title">Cloud Integration & Infrastructure Engineer</h3>
+              <span class="job-date">Sep 2022 – Jul 2024</span>
+            </div>
+            <p class="job-org">HCLTech — BioMérieux Project · Chennai, India</p>
+            <ul class="job-list">
+              <li>Engineered cloud-native microservices in Java (Spring Boot) to discover and reconcile 5,000+ enterprise infrastructure assets across Azure, improving inventory accuracy by 35%</li>
+              <li>Automated data synchronization pipelines between Azure and ServiceNow CMDB, reducing manual audit overhead by 30% and cutting reconciliation time from days to hours</li>
+              <li>Developed responsive React dashboards visualizing real-time cloud resource metrics for 50+ IT operations stakeholders, improving incident response time by 25%</li>
+              <li>Optimized PostgreSQL schema design and indexing, reducing average query latency by 40% on high-traffic reporting endpoints</li>
+              <li>Containerized services with Docker, improving environment provisioning consistency and cutting setup time by 20%</li>
+            </ul>
           </div>
         </div>
 
@@ -514,27 +507,26 @@
 
       <div class="filters fade-up">
         <button class="tag active" data-filter="all">all</button>
-        <button class="tag" data-filter="ai">AI & Chatbots</button>
         <button class="tag" data-filter="fullstack">Full-Stack</button>
         <button class="tag" data-filter="enterprise">Enterprise IT</button>
       </div>
 
       <div class="project-grid">
-        <div class="project-card glass glass-hover fade-up" data-cat="ai">
-          <p class="project-kicker">AI · GOVTECH</p>
-          <h3>City of Wichita Chatbot Admin Panel</h3>
-          <p>Production admin platform powering the City of Wichita's public-facing chatbot — real-time analytics, RBAC, and REST-API-synced content tools used daily by non-technical city staff.</p>
+        <div class="project-card glass glass-hover fade-up" data-cat="fullstack">
+          <p class="project-kicker">FULL-STACK · INDUSTRIAL IOT</p>
+          <h3>Connected Plant Alerts Dashboard</h3>
+          <p>Real-time dashboard that streams equipment alerts to plant operators over WebSockets and ranks assets by repair risk, cutting alert visibility from ~10 minutes to under 5 seconds.</p>
           <div class="project-tags">
-            <span class="tag small">React</span><span class="tag small">REST APIs</span><span class="tag small">RBAC</span><span class="tag small">Accessibility</span>
+            <span class="tag small">React</span><span class="tag small">TypeScript</span><span class="tag small">WebSockets</span><span class="tag small">Node.js</span>
           </div>
         </div>
 
-        <div class="project-card glass glass-hover fade-up" data-cat="ai" style="transition-delay:.05s">
-          <p class="project-kicker">AI · PROTOTYPE</p>
-          <h3>WSU Chatbot Admin Panel</h3>
-          <p>The prototype that started it all — a WCAG 2.1-compliant component library and analytics dashboard whose success led Wichita State University to a production city contract.</p>
+        <div class="project-card glass glass-hover fade-up" data-cat="fullstack" style="transition-delay:.05s">
+          <p class="project-kicker">FULL-STACK · DATA PIPELINE</p>
+          <h3>Sensor Data Connectors & APIs</h3>
+          <p>Node.js connectors ingesting telemetry and anomaly data from 500+ industrial sensors into PostgreSQL, with Redis caching holding p95 API latency under 100ms.</p>
           <div class="project-tags">
-            <span class="tag small">Design Systems</span><span class="tag small">WCAG 2.1</span><span class="tag small">Dashboards</span>
+            <span class="tag small">Node.js</span><span class="tag small">PostgreSQL</span><span class="tag small">Redis</span><span class="tag small">AWS</span>
           </div>
         </div>
 
@@ -550,10 +542,9 @@
         <div class="project-card glass glass-hover fade-up" data-cat="enterprise" style="transition-delay:.15s">
           <p class="project-kicker">ENTERPRISE IT</p>
           <h3>Cloud & CMDB Integration</h3>
-<p>Automated data synchronization pipelines between Azure Cloud and ServiceNow CMDB, reconciling 5,000+ enterprise assets and cutting reconciliation time from days to hours — plus real-time dashboards for 50+ IT ops stakeholders.</p>
-<div class="project-tags">
-  <span class="tag small">Azure</span><span class="tag small">ServiceNow CMDB</span><span class="tag small">Spring Boot</span><span class="tag small">PostgreSQL</span>
-
+          <p>Automated data synchronization pipelines between Azure Cloud and ServiceNow CMDB, reconciling 5,000+ enterprise assets and cutting reconciliation time from days to hours — plus real-time dashboards for 50+ IT ops stakeholders.</p>
+          <div class="project-tags">
+            <span class="tag small">Azure</span><span class="tag small">ServiceNow CMDB</span><span class="tag small">Spring Boot</span><span class="tag small">PostgreSQL</span>
           </div>
         </div>
       </div>
@@ -567,62 +558,63 @@
       <h2 class="display fade-up" style="margin-bottom:48px;">What I build with</h2>
 
       <div class="skills-grid">
-       <div class="skill-card glass glass-hover fade-up">
-  <h3>Languages</h3>
-  <div class="skill-tags">
-    <span class="tag small">Java</span><span class="tag small">Golang</span><span class="tag small">Python</span>
-    <span class="tag small">JavaScript</span><span class="tag small">TypeScript</span><span class="tag small">SQL</span><span class="tag small">DAX</span>
-  </div>
-</div>
-<div class="skill-card glass glass-hover fade-up">
-  <h3>Frontend</h3>
-  <div class="skill-tags">
-    <span class="tag small">React</span><span class="tag small">React Native</span><span class="tag small">Redux</span>
-    <span class="tag small">HTML5</span><span class="tag small">CSS3</span><span class="tag small">Responsive UI Design</span>
-  </div>
-</div>
-<div class="skill-card glass glass-hover fade-up">
-  <h3>Backend & Frameworks</h3>
-  <div class="skill-tags">
-    <span class="tag small">Spring Boot</span><span class="tag small">REST & SOAP APIs</span><span class="tag small">Node.js</span>
-    <span class="tag small">Microservices</span><span class="tag small">JSON/XML</span><span class="tag small">Generative AI Frameworks</span>
-  </div>
-</div>
-<div class="skill-card glass glass-hover fade-up">
-  <h3>Cloud & DevOps</h3>
-  <div class="skill-tags">
-    <span class="tag small">Microsoft Azure</span><span class="tag small">AWS (EC2/S3/Lambda/IAM)</span>
-    <span class="tag small">Docker</span><span class="tag small">Kubernetes</span><span class="tag small">Jenkins</span>
-    <span class="tag small">CI/CD</span><span class="tag small">Git</span><span class="tag small">ServiceNow CMDB</span>
-  </div>
-</div>
-<div class="skill-card glass glass-hover fade-up">
-  <h3>Databases</h3>
-  <div class="skill-tags">
-    <span class="tag small">PostgreSQL</span><span class="tag small">MongoDB</span><span class="tag small">Query Optimization</span>
-  </div>
-</div>
-<div class="skill-card glass glass-hover fade-up">
-  <h3>Data & BI</h3>
-  <div class="skill-tags">
-    <span class="tag small">Power BI</span><span class="tag small">Data Visualization</span>
-    <span class="tag small">ETL/Data Pipelines</span><span class="tag small">KPI Reporting</span><span class="tag small">Excel</span>
-  </div>
-</div>
-<div class="skill-card glass glass-hover fade-up">
-  <h3>AI Tools</h3>
-  <div class="skill-tags">
-    <span class="tag small">Claude</span><span class="tag small">Claude Code</span>
-    <span class="tag small">AI-Assisted Development</span><span class="tag small">Prompt Engineering</span>
-  </div>
-</div>
-<div class="skill-card glass glass-hover fade-up">
-  <h3>Practices & Tools</h3>
-  <div class="skill-tags">
-    <span class="tag small">Agile/Scrum</span><span class="tag small">API Integration</span><span class="tag small">System Design</span>
-    <span class="tag small">Unit Testing</span><span class="tag small">Postman</span><span class="tag small">JIRA</span>
-  </div>
-</div>
+        <div class="skill-card glass glass-hover fade-up">
+          <h3>Languages</h3>
+          <div class="skill-tags">
+            <span class="tag small">Java</span><span class="tag small">Golang</span><span class="tag small">Python</span>
+            <span class="tag small">JavaScript</span><span class="tag small">TypeScript</span><span class="tag small">SQL</span><span class="tag small">DAX</span>
+          </div>
+        </div>
+        <div class="skill-card glass glass-hover fade-up">
+          <h3>Frontend</h3>
+          <div class="skill-tags">
+            <span class="tag small">React</span><span class="tag small">React Native</span><span class="tag small">Redux</span>
+            <span class="tag small">WebSockets</span><span class="tag small">HTML5</span><span class="tag small">CSS3</span><span class="tag small">Responsive UI Design</span>
+          </div>
+        </div>
+        <div class="skill-card glass glass-hover fade-up">
+          <h3>Backend & Frameworks</h3>
+          <div class="skill-tags">
+            <span class="tag small">Spring Boot</span><span class="tag small">REST & SOAP APIs</span><span class="tag small">Node.js</span>
+            <span class="tag small">Microservices</span><span class="tag small">JSON/XML</span><span class="tag small">Generative AI Frameworks</span>
+          </div>
+        </div>
+        <div class="skill-card glass glass-hover fade-up">
+          <h3>Cloud & DevOps</h3>
+          <div class="skill-tags">
+            <span class="tag small">Microsoft Azure</span><span class="tag small">AWS (EC2/S3/Lambda/API Gateway/RDS/IAM)</span>
+            <span class="tag small">Docker</span><span class="tag small">Kubernetes</span><span class="tag small">Jenkins</span>
+            <span class="tag small">CI/CD</span><span class="tag small">Git</span><span class="tag small">ServiceNow CMDB</span>
+          </div>
+        </div>
+        <div class="skill-card glass glass-hover fade-up">
+          <h3>Databases</h3>
+          <div class="skill-tags">
+            <span class="tag small">PostgreSQL</span><span class="tag small">MongoDB</span><span class="tag small">Redis</span><span class="tag small">Query Optimization</span>
+          </div>
+        </div>
+        <div class="skill-card glass glass-hover fade-up">
+          <h3>Data & BI</h3>
+          <div class="skill-tags">
+            <span class="tag small">Power BI</span><span class="tag small">Data Visualization</span>
+            <span class="tag small">ETL/Data Pipelines</span><span class="tag small">KPI Reporting</span><span class="tag small">Excel</span>
+          </div>
+        </div>
+        <div class="skill-card glass glass-hover fade-up">
+          <h3>AI Tools</h3>
+          <div class="skill-tags">
+            <span class="tag small">Claude</span><span class="tag small">Claude Code</span>
+            <span class="tag small">AI-Assisted Development</span><span class="tag small">Prompt Engineering</span>
+          </div>
+        </div>
+        <div class="skill-card glass glass-hover fade-up">
+          <h3>Practices & Tools</h3>
+          <div class="skill-tags">
+            <span class="tag small">Agile/Scrum</span><span class="tag small">API Integration</span><span class="tag small">System Design</span>
+            <span class="tag small">Unit & Integration Testing</span><span class="tag small">Jest</span><span class="tag small">React Testing Library</span>
+            <span class="tag small">Postman</span><span class="tag small">JIRA</span>
+          </div>
+        </div>
       </div>
 
       <div class="fade-up" style="margin-top:52px;">
@@ -645,25 +637,23 @@
         <div class="contact-info">
           <span class="eyebrow">Contact</span>
           <h2 class="display" style="margin-bottom:20px;">Let's build<br/><span class="grad-text" style="font-style:italic;">something good.</span></h2>
-          <p>Open to full-stack and AI-platform engineering roles. If you're working on something interesting, I'd love to hear about it.</p>
+          <p>Open to full-stack and cloud engineering roles. If you're working on something interesting, I'd love to hear about it.</p>
 
           <div class="contact-links">
-            <a href="mailto:dogiparthimeghana1@gmail.com" class="contact-link">
-              <span class="ico">@</span><span class="val">dogiparthimeghana1@gmail.com</span>
+            <a href="mailto:dogiparthimeghana16@gmail.com" class="contact-link">
+              <span class="ico">@</span><span class="val">dogiparthimeghana16@gmail.com</span>
             </a>
             <a href="tel:+13166653447" class="contact-link">
               <span class="ico">#</span><span class="val">+1 (316) 665-3447</span>
             </a>
-            <a href="https://www.linkedin.com/in/MeghanaDogiparthi" target="_blank" rel="noopener" class="contact-link">
-              <span class="ico">in</span><span class="val">linkedin.com/in/MeghanaDogiparthi</span>
+            <a href="https://www.linkedin.com/in/meghanadogiparthi" target="_blank" rel="noopener" class="contact-link">
+              <span class="ico">in</span><span class="val">linkedin.com/in/meghanadogiparthi</span>
             </a>
             <a href="https://github.com/Meghana-1609" target="_blank" rel="noopener" class="contact-link">
-              <span class="ico">&lt;/&gt;</span><span class="val">github.com/Meghana1609</span>
+              <span class="ico">&lt;/&gt;</span><span class="val">github.com/Meghana-1609</span>
             </a>
           </div>
         </div>
-
-      
       </div>
     </div>
   </section>
@@ -671,7 +661,6 @@
   <footer>
     <div class="container footer-row">
       <p>© 2026 Meghana Dogiparthi.</p>
-      
     </div>
   </footer>
 
@@ -714,16 +703,8 @@
       });
     });
   });
-
-  // contact form (front-end only demo)
-  var form = document.getElementById('contactForm');
-  var note = document.getElementById('formNote');
-  form.addEventListener('submit', function(e){
-    e.preventDefault();
-    note.textContent = "Thanks — I'll get back to you soon. (Demo form — connect to your own backend or a service like Formspree to receive messages.)";
-    form.reset();
-  });
 </script>
 
 </body>
 </html>
+```
