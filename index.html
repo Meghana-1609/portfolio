@@ -1,11 +1,10 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Meghana Dogiparthi — Software Engineer</title>
-<meta name="description" content="Portfolio of Meghana Dogiparthi, full-stack software engineer." />
+<title>Meghana Dogiparthi — Full Stack Software Engineer</title>
+<meta name="description" content="Portfolio of Meghana Dogiparthi, full stack software engineer specializing in React, Node.js, and cloud-native applications." />
 
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,7 +18,6 @@
   button{ font:inherit; cursor:pointer; background:none; border:none; }
   a{ text-decoration:none; color:inherit; }
   ul{ list-style:none; }
-  input,textarea{ font:inherit; color:inherit; border:none; }
 
   /* ============ TOKENS ============ */
   :root{
@@ -46,8 +44,6 @@
     overflow-x:hidden;
     -webkit-font-smoothing:antialiased;
   }
-  .font-display{ font-family:'Fraunces', serif; }
-  .font-mono{ font-family:'JetBrains Mono', monospace; }
 
   ::selection{ background:var(--violet); color:#fff; }
 
@@ -59,7 +55,7 @@
     border:2px solid var(--obsidian);
   }
 
-  a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible{
+  a:focus-visible, button:focus-visible{
     outline:2px solid var(--rose-gold); outline-offset:3px; border-radius:8px;
   }
 
@@ -222,8 +218,6 @@
   .job-title{ font-family:'Fraunces', serif; font-size:1.5rem; font-weight:600; }
   .job-date{ font-family:'JetBrains Mono', monospace; font-size:12px; color:var(--ink-lo); }
   .job-org{ font-size:14px; color:var(--ink-mid); margin-bottom:22px; }
-  .job-sub{ font-family:'JetBrains Mono', monospace; font-size:11px; color:var(--violet); letter-spacing:.05em; margin:20px 0 10px; text-transform:uppercase; }
-  .job-sub:first-of-type{ margin-top:0; }
   .job-list{ display:flex; flex-direction:column; gap:9px; }
   .job-list li{ position:relative; padding-left:20px; font-size:14.5px; color:var(--ink-mid); line-height:1.65; }
   .job-list li::before{ content:'—'; position:absolute; left:0; color:var(--rose-gold); }
@@ -274,22 +268,6 @@
     font-size:12px; background:rgba(255,255,255,0.05); border:1px solid var(--border);
   }
   .contact-link .val{ word-break:break-word; }
-
-  .field{ margin-bottom:18px; }
-  .field label{
-    display:block; font-family:'JetBrains Mono', monospace; font-size:11px; color:var(--ink-lo);
-    letter-spacing:.05em; margin-bottom:8px;
-  }
-  .field input, .field textarea{
-    width:100%; background:rgba(255,255,255,0.045); border:1px solid rgba(255,255,255,0.1);
-    border-radius:16px; padding:14px 18px; font-size:14px; color:var(--ink-hi); transition:.25s ease;
-  }
-  .field input::placeholder, .field textarea::placeholder{ color:var(--ink-lo); }
-  .field input:focus, .field textarea:focus{
-    outline:none; border-color:var(--rose-gold); box-shadow:0 0 0 3px rgba(232,180,160,0.15); background:rgba(255,255,255,0.06);
-  }
-  .field textarea{ resize:vertical; min-height:110px; }
-  .form-note{ font-family:'JetBrains Mono', monospace; font-size:12px; color:var(--ink-lo); margin-top:14px; line-height:1.6; }
 
   /* ============ FOOTER ============ */
   footer{ padding:8px 0 60px; }
@@ -346,14 +324,15 @@
   <section id="home" class="section hero">
     <div class="container hero-grid">
       <div class="fade-up">
-        <span class="eyebrow">Software Engineer </span>
+        <span class="eyebrow">Full Stack Software Engineer</span>
         <h1>I build software<br/>that feels <span class="grad-text" style="font-style:italic;">alive.</span></h1>
         <p class="lead">
-          Five years of shipping full-stack systems — from real-time
-          dashboards that help plant operators catch equipment risks at
-          Koch Industries to real estate platforms built on Go and React
-          Native. I write clean backends, design thoughtful APIs, and care
-          deeply about the people on the other end of the interface.
+          Full stack engineer with five years of experience building
+          production web applications and cloud-native services. From
+          real-time dashboards that surface critical equipment alerts at
+          Koch Industries to high-throughput APIs and data pipelines on AWS
+          and Azure, I deliver fast, reliable software and care about the
+          people who use it.
         </p>
         <div class="hero-actions">
           <a href="#projects" class="btn btn-primary">View my work</a>
@@ -404,28 +383,31 @@
       </div>
       <div class="fade-up" style="transition-delay:.1s">
         <p>
-          I'm a software engineer who has worked across the full stack of
-          modern IT — from governing thousands of assets inside a
-          ServiceNow CMDB, to building real-time dashboards and APIs on
-          Koch Industries' Connected Plant Initiative. That range taught
-          me to care about both the invisible plumbing and the interface
-          people actually touch.
+          I'm a full stack software engineer who designs, builds, and scales
+          production applications with React, TypeScript, Node.js, Java, and
+          Golang. My work spans real-time dashboards at Koch Industries,
+          Azure-to-ServiceNow integration pipelines at HCLTech, and real
+          estate platforms at Fission Infotech, with a focus on performance,
+          reliability, and clean, well-tested code. I partner closely with
+          product, operations, and design teams, and I build AI-powered
+          tools on the side.
         </p>
         <p>
-          I recently completed my M.S. in Computer Science at Wichita
-          State University, focusing on machine learning, advanced
-          algorithms, and cybersecurity. Outside of coursework, I've
-          competed in business intelligence hackathons and mentored
-          junior analysts — I like teams where people get better together.
+          I recently completed my M.S. in Computer Science at Wichita State
+          University, focusing on machine learning, advanced algorithms, and
+          cybersecurity. Outside of work, I've built a chatbot admin panel
+          for the City of Wichita, competed in business intelligence
+          hackathons, and mentored junior analysts. I like teams where
+          people get better together.
         </p>
         <div class="about-cards">
           <div class="about-card glass glass-hover">
             <p class="num grad-text">M.S.</p>
-            <p class="cap">Computer Science, Wichita State University · GPA 3.6/4.0</p>
+            <p class="cap">Computer Science, Wichita State University</p>
           </div>
           <div class="about-card glass glass-hover">
             <p class="num grad-text">B.Tech.</p>
-            <p class="cap">Computer Science, AVNIET (JNTU) </p>
+            <p class="cap">Computer Science &amp; Engineering, Jawaharlal Nehru Technological University</p>
           </div>
         </div>
       </div>
@@ -448,14 +430,14 @@
               <h3 class="job-title">Full Stack Software Engineer</h3>
               <span class="job-date">Jan 2025 – Present</span>
             </div>
-            <p class="job-org">Koch Industries / Flint Hills Resources — Connected Plant Initiative · Wichita, KS</p>
+            <p class="job-org">Koch Industries — Connected Plant Initiative · Wichita, KS</p>
             <ul class="job-list">
-              <li>Built full-stack features for the Connected Plant Initiative using React, TypeScript, Node.js, and PostgreSQL, serving 100+ plant operators and reliability engineers across multiple sites</li>
-              <li>Developed real-time React dashboards with WebSocket streaming, cutting the time for operators to see critical equipment alerts from ~10 minutes to under 5 seconds</li>
-              <li>Designed and built 25+ RESTful Node.js endpoints and PostgreSQL schemas for alerts and risk-ranking features, reducing slow-query response times by 30% through indexing and query tuning</li>
-              <li>Built Node.js data connectors ingesting telemetry and anomaly data from 500+ industrial sensors (~100 events/sec at peak), using Redis caching to keep p95 API response times under 100ms</li>
-              <li>Created 15+ reusable, responsive React components for equipment risk rankings and status views, helping operators prioritize high-risk equipment faster</li>
-              <li>Wrote unit and integration tests with Jest and React Testing Library (~80% coverage) and deployed services to AWS (Lambda, API Gateway, RDS) through CI/CD pipelines, cutting release time from hours to minutes</li>
+              <li>Built full-stack features with React, TypeScript, Node.js, and PostgreSQL for 100+ plant operators and engineers across sites</li>
+              <li>Developed real-time React dashboards with WebSocket streaming, cutting time-to-visibility for critical equipment alerts from ~10 minutes to under 5 seconds</li>
+              <li>Designed 25+ RESTful Node.js endpoints and PostgreSQL schemas for alerts and risk ranking, cutting slow-query response times by 30% through indexing and query tuning</li>
+              <li>Built Node.js connectors ingesting data from 500+ industrial sensors (~100 events/sec); Redis caching held p95 latency under 100 ms</li>
+              <li>Created 15+ reusable React components for equipment risk rankings and status views, helping operators prioritize high-risk equipment</li>
+              <li>Wrote Jest/React Testing Library tests (~80% coverage); deployed to AWS (Lambda, API Gateway, RDS) via CI/CD in minutes</li>
             </ul>
           </div>
         </div>
@@ -464,16 +446,15 @@
           <div class="timeline-dot" style="background:var(--violet);"></div>
           <div class="job-card glass glass-hover">
             <div class="job-head">
-              <h3 class="job-title">Cloud Integration & Infrastructure Engineer</h3>
+              <h3 class="job-title">Cloud Integration &amp; Infrastructure Engineer</h3>
               <span class="job-date">Sep 2022 – Jul 2024</span>
             </div>
             <p class="job-org">HCLTech — BioMérieux Project · Chennai, India</p>
             <ul class="job-list">
-              <li>Engineered cloud-native microservices in Java (Spring Boot) to discover and reconcile 5,000+ enterprise infrastructure assets across Azure, improving inventory accuracy by 35%</li>
-              <li>Automated data synchronization pipelines between Azure and ServiceNow CMDB, reducing manual audit overhead by 30% and cutting reconciliation time from days to hours</li>
-              <li>Developed responsive React dashboards visualizing real-time cloud resource metrics for 50+ IT operations stakeholders, improving incident response time by 25%</li>
-              <li>Optimized PostgreSQL schema design and indexing, reducing average query latency by 40% on high-traffic reporting endpoints</li>
-              <li>Containerized services with Docker, improving environment provisioning consistency and cutting setup time by 20%</li>
+              <li>Engineered Java (Spring Boot) microservices to discover and reconcile 5,000+ infrastructure assets across Azure, improving inventory accuracy by 35%</li>
+              <li>Automated Azure-to-ServiceNow CMDB data synchronization pipelines, cutting reconciliation time from days to hours and manual audit effort by 30%</li>
+              <li>Built React dashboards visualizing real-time cloud metrics for 50+ IT operations stakeholders, improving incident response time by 25%</li>
+              <li>Cut query latency by 40% on high-traffic reporting endpoints through PostgreSQL schema design and indexing; containerized services with Docker, reducing setup time by 20%</li>
             </ul>
           </div>
         </div>
@@ -487,11 +468,10 @@
             </div>
             <p class="job-org">Fission Infotech Pvt. Ltd. — Shadow Properties · Hyderabad, India</p>
             <ul class="job-list">
-              <li>Built a real estate administration portal from scratch — Golang microservices backend, React Native frontend, MongoDB database — delivered on schedule</li>
-              <li>Created RBAC-secured RESTful APIs and optimized slow queries, lifting production performance by roughly 25%</li>
-              <li>Shipped audit logs and content lifecycle modules to track every system change</li>
-              <li>Worked within Agile sprints, meeting all sprint goals while keeping stakeholders informed</li>
-              <li>Contributed to API versioning that enabled a second client integration with no extra engineering work</li>
+              <li>Built a real estate admin portal and React Native mobile app, streamlining listing management for 500+ active properties</li>
+              <li>Designed Golang microservices and RESTful APIs for property search, improving average search response time by 30%</li>
+              <li>Improved data retrieval speed by 40% during peak traffic through MongoDB schema and index optimization</li>
+              <li>Partnered with designers and product stakeholders on interactive UI components, increasing user engagement by 15%</li>
             </ul>
           </div>
         </div>
@@ -507,12 +487,22 @@
 
       <div class="filters fade-up">
         <button class="tag active" data-filter="all">all</button>
+        <button class="tag" data-filter="ai">AI &amp; Chatbots</button>
         <button class="tag" data-filter="fullstack">Full-Stack</button>
         <button class="tag" data-filter="enterprise">Enterprise IT</button>
       </div>
 
       <div class="project-grid">
-        <div class="project-card glass glass-hover fade-up" data-cat="fullstack">
+        <div class="project-card glass glass-hover fade-up" data-cat="ai">
+          <p class="project-kicker">AI · PERSONAL PROJECT</p>
+          <h3>AI Chatbot Admin Panel</h3>
+          <p>Full-stack admin panel built with React and Python that lets municipal staff manage conversational AI workflows, cutting manual ticket triage time by 30%. AWS microservices connect generative AI models to admin tooling with sub-200 ms average API latency and 99.9% uptime, while real-time analytics dashboards track 1,000+ monthly interactions and lifted first-contact resolution by 20%.</p>
+          <div class="project-tags">
+            <span class="tag small">React</span><span class="tag small">Python</span><span class="tag small">AWS</span><span class="tag small">MongoDB</span><span class="tag small">REST APIs</span>
+          </div>
+        </div>
+
+        <div class="project-card glass glass-hover fade-up" data-cat="fullstack" style="transition-delay:.05s">
           <p class="project-kicker">FULL-STACK · INDUSTRIAL IOT</p>
           <h3>Connected Plant Alerts Dashboard</h3>
           <p>Real-time dashboard that streams equipment alerts to plant operators over WebSockets and ranks assets by repair risk, cutting alert visibility from ~10 minutes to under 5 seconds.</p>
@@ -521,28 +511,28 @@
           </div>
         </div>
 
-        <div class="project-card glass glass-hover fade-up" data-cat="fullstack" style="transition-delay:.05s">
+        <div class="project-card glass glass-hover fade-up" data-cat="fullstack" style="transition-delay:.1s">
           <p class="project-kicker">FULL-STACK · DATA PIPELINE</p>
-          <h3>Sensor Data Connectors & APIs</h3>
-          <p>Node.js connectors ingesting telemetry and anomaly data from 500+ industrial sensors into PostgreSQL, with Redis caching holding p95 API latency under 100ms.</p>
+          <h3>Sensor Data Connectors &amp; APIs</h3>
+          <p>Node.js connectors ingesting data from 500+ industrial sensors into PostgreSQL, with Redis caching holding p95 latency under 100 ms.</p>
           <div class="project-tags">
             <span class="tag small">Node.js</span><span class="tag small">PostgreSQL</span><span class="tag small">Redis</span><span class="tag small">AWS</span>
           </div>
         </div>
 
-        <div class="project-card glass glass-hover fade-up" data-cat="fullstack" style="transition-delay:.1s">
+        <div class="project-card glass glass-hover fade-up" data-cat="fullstack" style="transition-delay:.15s">
           <p class="project-kicker">FULL-STACK · PROPTECH</p>
           <h3>Shadow Properties Admin Portal</h3>
-          <p>A real estate administration portal built from the ground up on Golang microservices and React Native, with RBAC-secured APIs and a ~25% production performance gain.</p>
+          <p>Real estate admin portal and React Native companion app for 500+ active properties, backed by Golang microservices and MongoDB, with 30% faster search and 40% faster data retrieval under peak traffic.</p>
           <div class="project-tags">
             <span class="tag small">Golang</span><span class="tag small">React Native</span><span class="tag small">MongoDB</span>
           </div>
         </div>
 
-        <div class="project-card glass glass-hover fade-up" data-cat="enterprise" style="transition-delay:.15s">
+        <div class="project-card glass glass-hover fade-up" data-cat="enterprise" style="transition-delay:.2s">
           <p class="project-kicker">ENTERPRISE IT</p>
-          <h3>Cloud & CMDB Integration</h3>
-          <p>Automated data synchronization pipelines between Azure Cloud and ServiceNow CMDB, reconciling 5,000+ enterprise assets and cutting reconciliation time from days to hours — plus real-time dashboards for 50+ IT ops stakeholders.</p>
+          <h3>Cloud &amp; CMDB Integration</h3>
+          <p>Azure-to-ServiceNow CMDB synchronization pipelines reconciling 5,000+ infrastructure assets and cutting reconciliation time from days to hours, plus real-time dashboards for 50+ IT operations stakeholders.</p>
           <div class="project-tags">
             <span class="tag small">Azure</span><span class="tag small">ServiceNow CMDB</span><span class="tag small">Spring Boot</span><span class="tag small">PostgreSQL</span>
           </div>
@@ -561,58 +551,55 @@
         <div class="skill-card glass glass-hover fade-up">
           <h3>Languages</h3>
           <div class="skill-tags">
-            <span class="tag small">Java</span><span class="tag small">Golang</span><span class="tag small">Python</span>
-            <span class="tag small">JavaScript</span><span class="tag small">TypeScript</span><span class="tag small">SQL</span><span class="tag small">DAX</span>
+            <span class="tag small">JavaScript</span><span class="tag small">TypeScript</span><span class="tag small">Java</span>
+            <span class="tag small">Python</span><span class="tag small">Golang</span><span class="tag small">SQL</span>
+            <span class="tag small">HTML5</span><span class="tag small">CSS3</span>
           </div>
         </div>
         <div class="skill-card glass glass-hover fade-up">
           <h3>Frontend</h3>
           <div class="skill-tags">
             <span class="tag small">React</span><span class="tag small">React Native</span><span class="tag small">Redux</span>
-            <span class="tag small">WebSockets</span><span class="tag small">HTML5</span><span class="tag small">CSS3</span><span class="tag small">Responsive UI Design</span>
+            <span class="tag small">Responsive Design</span><span class="tag small">Interactive Dashboards</span><span class="tag small">UI/UX Design</span>
           </div>
         </div>
         <div class="skill-card glass glass-hover fade-up">
-          <h3>Backend & Frameworks</h3>
+          <h3>Backend &amp; APIs</h3>
           <div class="skill-tags">
-            <span class="tag small">Spring Boot</span><span class="tag small">REST & SOAP APIs</span><span class="tag small">Node.js</span>
-            <span class="tag small">Microservices</span><span class="tag small">JSON/XML</span><span class="tag small">Generative AI Frameworks</span>
+            <span class="tag small">Node.js</span><span class="tag small">Spring Boot</span><span class="tag small">RESTful APIs</span>
+            <span class="tag small">SOAP</span><span class="tag small">Microservices</span><span class="tag small">WebSockets</span>
+            <span class="tag small">JSON/XML</span><span class="tag small">API Integration</span>
           </div>
         </div>
         <div class="skill-card glass glass-hover fade-up">
-          <h3>Cloud & DevOps</h3>
+          <h3>Cloud &amp; DevOps</h3>
           <div class="skill-tags">
-            <span class="tag small">Microsoft Azure</span><span class="tag small">AWS (EC2/S3/Lambda/API Gateway/RDS/IAM)</span>
+            <span class="tag small">AWS (Lambda/API Gateway/EC2/S3/RDS/IAM)</span><span class="tag small">Microsoft Azure</span>
             <span class="tag small">Docker</span><span class="tag small">Kubernetes</span><span class="tag small">Jenkins</span>
-            <span class="tag small">CI/CD</span><span class="tag small">Git</span><span class="tag small">ServiceNow CMDB</span>
+            <span class="tag small">CI/CD</span><span class="tag small">Git</span>
           </div>
         </div>
         <div class="skill-card glass glass-hover fade-up">
           <h3>Databases</h3>
           <div class="skill-tags">
-            <span class="tag small">PostgreSQL</span><span class="tag small">MongoDB</span><span class="tag small">Redis</span><span class="tag small">Query Optimization</span>
+            <span class="tag small">PostgreSQL</span><span class="tag small">MongoDB</span><span class="tag small">Redis</span>
+            <span class="tag small">Schema Design</span><span class="tag small">Query Optimization</span><span class="tag small">Indexing</span>
           </div>
         </div>
         <div class="skill-card glass glass-hover fade-up">
-          <h3>Data & BI</h3>
+          <h3>Testing &amp; Practices</h3>
           <div class="skill-tags">
-            <span class="tag small">Power BI</span><span class="tag small">Data Visualization</span>
-            <span class="tag small">ETL/Data Pipelines</span><span class="tag small">KPI Reporting</span><span class="tag small">Excel</span>
+            <span class="tag small">Jest</span><span class="tag small">React Testing Library</span>
+            <span class="tag small">Unit &amp; Integration Testing</span><span class="tag small">Postman</span>
+            <span class="tag small">Agile/Scrum</span><span class="tag small">JIRA</span><span class="tag small">System Design</span>
           </div>
         </div>
         <div class="skill-card glass glass-hover fade-up">
-          <h3>AI Tools</h3>
+          <h3>AI &amp; Tools</h3>
           <div class="skill-tags">
+            <span class="tag small">Generative AI Frameworks</span><span class="tag small">Prompt Engineering</span>
             <span class="tag small">Claude</span><span class="tag small">Claude Code</span>
-            <span class="tag small">AI-Assisted Development</span><span class="tag small">Prompt Engineering</span>
-          </div>
-        </div>
-        <div class="skill-card glass glass-hover fade-up">
-          <h3>Practices & Tools</h3>
-          <div class="skill-tags">
-            <span class="tag small">Agile/Scrum</span><span class="tag small">API Integration</span><span class="tag small">System Design</span>
-            <span class="tag small">Unit & Integration Testing</span><span class="tag small">Jest</span><span class="tag small">React Testing Library</span>
-            <span class="tag small">Postman</span><span class="tag small">JIRA</span>
+            <span class="tag small">ServiceNow CMDB</span><span class="tag small">ETL/Data Pipelines</span>
           </div>
         </div>
       </div>
@@ -622,7 +609,7 @@
         <div class="cert-row">
           <div class="cert-chip glass">Claude 101 — Anthropic Education, 2026</div>
           <div class="cert-chip glass">Claude Code 101 — Anthropic Education, 2026</div>
-          <div class="cert-chip glass">AI Fluency: Framework & Foundations — Anthropic Education, 2026</div>
+          <div class="cert-chip glass">AI Fluency: Framework &amp; Foundations — Anthropic Education, 2026</div>
         </div>
       </div>
     </div>
@@ -637,14 +624,14 @@
         <div class="contact-info">
           <span class="eyebrow">Contact</span>
           <h2 class="display" style="margin-bottom:20px;">Let's build<br/><span class="grad-text" style="font-style:italic;">something good.</span></h2>
-          <p>Open to full-stack and cloud engineering roles. If you're working on something interesting, I'd love to hear about it.</p>
+          <p>Open to full-stack and cloud engineering roles. Based in Wichita, KS. If you're working on something interesting, I'd love to hear about it.</p>
 
           <div class="contact-links">
-            <a href="mailto:dogiparthimeghana16@gmail.com" class="contact-link">
-              <span class="ico">@</span><span class="val">dogiparthimeghana16@gmail.com</span>
+            <a href="mailto:meghana.contact.m@gmail.com" class="contact-link">
+              <span class="ico">@</span><span class="val">meghana.contact.m@gmail.com</span>
             </a>
-            <a href="tel:+13166653447" class="contact-link">
-              <span class="ico">#</span><span class="val">+1 (316) 665-3447</span>
+            <a href="tel:+13163391290" class="contact-link">
+              <span class="ico">#</span><span class="val">+1 (316) 339-1290</span>
             </a>
             <a href="https://www.linkedin.com/in/meghanadogiparthi" target="_blank" rel="noopener" class="contact-link">
               <span class="ico">in</span><span class="val">linkedin.com/in/meghanadogiparthi</span>
@@ -707,4 +694,3 @@
 
 </body>
 </html>
-```
